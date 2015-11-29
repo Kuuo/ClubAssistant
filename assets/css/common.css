@@ -1,0 +1,21 @@
+html, body, div, span, object, 
+h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, 
+tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td { 
+	margin: 0; padding: 0; 
+	border: 0; outline: 0; 
+	font-family: Helvetica, Tahoma, Arial, 
+	"Hiragino Sans GB", "Hiragino Sans GB W3", STXihei, STHeiti, 
+	"Microsoft YaHei", Heiti, SimSun, sans-serif; 
+	-webkit-font-smoothing:antialiased;
+}
+
+ul,ol,li{ list-style:none;}
+
+a:link, a:visited{ color:#333; text-decoration:none;}
+
+img{ border:none;}
+
+h1,h2,h3,h4,h5{ font-weight:normal;}

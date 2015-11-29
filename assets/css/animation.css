@@ -1,0 +1,33 @@
+
+.current{
+    -webkit-animation: figin 1s ease-out;
+    -moz-animation: figin 1s ease-out;
+    -o-animation: figin 1s ease-out;
+    animation: figin 1s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes figin {
+    0% { transform:translateY(-10px); opacity: 0;}
+    100% { transform:translateY(0px); opacity: 1;}
+}
+@-moz-keyframes figin {
+    0% { transform:translateY(-10px); opacity: 0;}
+    100% { transform:translateY(0px); opacity: 1;}
+}
+@-webkit-keyframes figin {
+    0% {-webkit-transform:translateY(-10px); opacity: 0;}
+    100% { -webkit-transform:translateY(0px); opacity: 1;}
+}
+
+@-o-keyframes figin {
+    0% { -o-transform:translateY(-10px); opacity: 0;}
+    100% { -o-transform:translateY(0px); opacity: 1;}
+}
+@-ms-keyframes figin {
+    0% { -ms-transform:translateY(-10px); opacity: 0;}
+    100% { -ms-transform:translateY(0px); opacity: 1;}
+}

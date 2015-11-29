@@ -1,0 +1,128 @@
+
+body{ 
+	width: 100%; 
+	min-width: 960px; 
+	overflow-x: hidden; 
+	font-size: 14px; 
+	background: #FFF url(../img/bg01.jpg) no-repeat; 
+	background-size: cover;
+}
+
+section{ 
+	width: 100%; 
+}
+
+.show{ 
+	display: block; 
+}
+
+.fitures{ 
+	position: relative; 
+	width: 100%; 
+}
+
+.fitanimate, .fitshow{ 
+	position: relative; 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+.fitshow{ 
+	height: 730px; 
+	overflow: hidden; 
+	text-align: center; 
+}
+.fitshow h2{ 
+	height: 85px; 
+	padding-top: 30px; 
+	font-size: 60px; 
+	color: #FFF; 
+}
+.fitshow p{
+	height: 70px; 
+	font-size: 20px; 
+	color: #FFF; 
+}
+.fitshow ul{ 
+	position: relative; 
+	width: 100%; 
+}
+.fitshow li{ 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	z-index: 0; 
+	display: none; 
+}
+.fitshow li.current{ 
+	z-index: 2; 
+	display: block; 
+}
+
+.fitwrap{
+	width: 800px; 
+	height: 500px; 
+	margin: 0 auto; 
+	background-color: transparent;
+	background-size: cover;
+	box-shadow: 0 0 30px #555;
+}
+
+.fig_1 .fitwrap{ 
+  	background-image: url(../img/pic1.png);
+}
+.fig_2 .fitwrap{  
+  	background-image: url(../img/pic2.png);
+}
+.fig_3 .fitwrap{  
+  	background-image: url(../img/pic3.png);
+}
+.fig_4 .fitwrap{  
+  	background-image: url(../img/pic4.png);
+}
+.fig_5 .fitwrap{  
+  	background-image: url(../img/pic5.png);
+}
+.fig_6 .fitwrap{  
+  	background-image: url(../img/pic6.png);
+}
+
+.prev, .next{ 
+	position: absolute; 
+	top: 50%; 
+	width: 48px; 
+	height: 90px; 
+	margin-top: -20px; 
+}
+
+.prev{ 
+	left: -60px; 
+	background: transparent url(../img/prev.png) no-repeat left top; 
+}
+.prev:hover{ 
+	background-position: left bottom; 
+}
+.next{ 
+	right: -60px; 
+	background: transparent url(../img/next.png) no-repeat left top; 
+}
+.next:hover{ 
+	background-position: left bottom; 
+}
+
+
+.snav{ 
+	width: 100%; 
+	height: 35px; 
+	text-align: center; 
+}
+.snav li{ 
+	display: inline; 
+	padding: 0 20px 14px; 
+	background: transparent url(../img/pnnormal.png) no-repeat center top; 
+	cursor: pointer; 
+}
+.snav li.cur{ 
+	background-image: url(../img/pnselected.png); 
+}
