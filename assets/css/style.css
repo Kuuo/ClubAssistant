@@ -5,6 +5,7 @@ body{
 	overflow-x: hidden; 
 	font-size: 14px; 
 	background: #FFF url(../img/bg01.jpg) no-repeat; 
+	-webkit-background-size: cover;
 	background-size: cover;
 }
 
@@ -65,7 +66,6 @@ section{
 	height: 500px; 
 	margin: 0 auto; 
 	background-color: transparent;
-	background-size: cover;
 	box-shadow: 0 0 30px #555;
 }
 
