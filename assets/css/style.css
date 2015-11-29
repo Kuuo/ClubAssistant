@@ -66,6 +66,8 @@ section{
 	height: 500px; 
 	margin: 0 auto; 
 	background-color: transparent;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0 0 30px #555;
 }
 
