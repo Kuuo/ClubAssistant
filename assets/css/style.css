@@ -4,7 +4,7 @@ body{
   min-width: 960px;
   overflow-x: hidden;
   font-size: 14px;
-  background: #FFF url(../img/bg01.jpg) no-repeat;
+  background: #FFF url(http://ohk6tc8pf.bkt.clouddn.com/bg01.jpg) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -72,22 +72,16 @@ section{
 }
 
 .fig_1 .fitwrap{
-  background-image: url(../img/pic1.jpg);
+  background-image: url(http://ohk6tc8pf.bkt.clouddn.com/pic1.jpg);
 }
 .fig_2 .fitwrap{
-  background-image: url(../img/pic2.png);
-}
-.fig_3 .fitwrap{
-  background-image: url(../img/pic3.png);
-}
-.fig_4 .fitwrap{
-  background-image: url(../img/pic4.png);
+  background-image: url(http://ohk6tc8pf.bkt.clouddn.com/pic2.png);
 }
 .fig_5 .fitwrap{
-  background-image: url(../img/pic5.png);
+  background-image: url(http://ohk6tc8pf.bkt.clouddn.com/pic5.png);
 }
 .fig_6 .fitwrap{
-  background-image: url(../img/pic6.png);
+  background-image: url(http://ohk6tc8pf.bkt.clouddn.com/pic6.png);
 }
 
 .prev, .next{
